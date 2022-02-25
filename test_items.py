@@ -11,6 +11,6 @@ def test_find_button(browser):
 
 """
 Запускаем тест
-    pytest --language=es lesson6_step9_multi_language_dz.py
+    pytest --language=es test_items.py
 """
 
