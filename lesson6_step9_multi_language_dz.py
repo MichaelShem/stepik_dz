@@ -4,7 +4,7 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
 
-def test_guest_should_see_login_link(browser):
+def test_find_button(browser):
     browser.get(link)
     assert browser.find_elements(By.CSS_SELECTOR, '.product_main > button'), "Кнопка не найдена"
     time.sleep(30)
